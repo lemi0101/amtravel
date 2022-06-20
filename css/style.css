@@ -1283,7 +1283,7 @@ input#firstname, input#lastname, input#email, input#password1, input#password2 {
 }
 @media (max-width:740px){
     .toggle{
-        margin-left:70%;
+        margin-left:60%;
     }
     .main-search{
         display:none;
