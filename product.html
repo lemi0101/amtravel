@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+    <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="grid container">
+        <!-- HEADER -->
+        <header id="header">
+            <!-- TOP BAR -->
+            <div class="top_bar">
+                <div class="row no-gutter">
+                    <div class="bar-inf col l-9 m-7 c-0">
+                        <div class="row">
+                            <div class="phone col l-2 m-3">+84 8640 0003</div>
+                            <div class="social-media col l-10 m-9">
+                                <ul class="social-list row">
+                                    <li class="col">
+                                        <a class="social-list-item" href="#">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                    </li>
+                                    <li class="col">
+                                        <a class="social-list-item" href="#">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li class="col">
+                                        <a class="social-list-item" href="#">
+                                            <i class="fab fa-youtube"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- MAIN MENU -->
+            <div class="main-nav row no-gutter">
+                <div class="main-nav-logo col l-2 m-2">
+                    <a>
+                        <img src="img/logo.jpg" alt="logo"></a>
+                    </a>
+                </div>
+                <nav class="main-nav-menu col l-10 m-10">
+                    <ul class="main-nav-list row">
+                        <li class="col l-o-3 l-2 m-2"><a class="main-nav-item" href="index.html">TRANG CHỦ</a></li>
+                        <li class="col l-2 m-2"><a class="main-nav-item main-nav-item-active" href="#">SẢN PHẨM</a></li>
+                        <li class="col l-2 m-2"><a class="main-nav-item" href="#">TIN TỨC</a></li>
+                        <li class="col l-2 m-2"><a class="main-nav-item" href="contact.html">LIÊN HỆ</a></li>
+                        <li class="cart-icon"><a class="main-nav-item" href="#"><i class="fas fa-shopping-cart"></i><span>2</span></a></li>
+                    </ul>
+                </nav>
+                <label for="nav-mobile-input" class="toggle"><i class="fa-solid fa-bars"></i></label>
+                <input type="checkbox" hidden name="" class="nav-input" id="nav-mobile-input">
+                <label for="nav-mobile-input" class="nav_overlay"></label>
+                <!-- MAIN MENU - MOBILE -->
+                <nav class="main-nav-mobile-menu">
+                    <label for="nav-mobile-input" class="nav_mobile_close">
+                        <i class="fa-solid fa-xmark"></i>
+                    </label>
+                    <div class="cart-icon-mobile"><a class="cart-mobile" href="#"><i class="fas fa-shopping-cart"></i><span>2</span></a></div>
+                    <ul class="main-nav-mobile-list">
+                        <li><a class="main-nav-mobile-item first-nav-mobile" href="index.html"><i class="fa-solid fa-house"></i>Trang chủ</a></li>
+                        <li><a class="main-nav-mobile-item" href="#"><i class="fa-solid fa-circle-info"></i>Giới thiệu</a></li>
+                        <li><a class="main-nav-mobile-item" href="#"><i class="fa-solid fa-newspaper"></i>Tin tức</a></li>
+                        <li><a class="main-nav-mobile-item" href="contact.html"><i class="fa-solid fa-phone"></i>Liên hệ</a></li>
+                    </ul>
+                    <h1>Tiện ích</h1>
+                    <!-- SUB NAV - MOBILE -->
+                    <ul class="sub-nav-mobile-list row">
+                        <li  class="sub-nav-mobile col c-6"><a href="" class="sub-nav-mobile-item"><i class="fas fa-hotel"></i><span>Khách sạn</span></a></li>
+                        <li class="sub-nav-mobile col c-6"><a href="" class="sub-nav-mobile-item"><i class="fas fa-car"></i><span>Xe thuê</span></a></li>
+                        <li class="sub-nav-mobile col c-6"><a href="" class="sub-nav-mobile-item"><i class="fas fa-plane"></i><span>Vé bay</span></a></li>
+                        <li class="sub-nav-mobile col c-6"><a href="" class="sub-nav-mobile-item"><i class="fas fa-umbrella-beach"></i><span>Trips</span></a></li>
+                        <li class="sub-nav-mobile col c-6"><a href="" class="sub-nav-mobile-item"><i class="fas fa-ship"></i><span>Du thuyền</span></a></li>
+                        <li class="sub-nav-mobile col c-6"><a href="" class="sub-nav-mobile-item"><i class="fas fa-hiking"></i><span>Hoạt động</span></a></li>
+                    </ul>
+                </nav>    
+            </div>  
+        </header>
+
+        <!-- MAIN SLIDE  -->
+        <div class="main">
+            <div class="main-slide">
+                <div class="home-slide-background home-slide-background-1"></div>
+                <div class="home-slide-background home-slide-background-2"></div>
+                <div class="home-slide-background home-slide-background-3"></div>
+            </div>
+            <div class="main-search">
+                <div class="main-search-tab">
+                    <ul class="search-tab-lists row">
+                        <li class="search-tab-item ui-tabs-active col l-2-3 m-2 l-o-1"><a href="#"><i class="fas fa-hotel"></i><span>Khách sạn</span></a></li>
+                        <li class="search-tab-item col l-2-3 m-2"><a href="#"><i class="fas fa-car"></i><span>Xe thuê</span></a></li>
+                        <li class="search-tab-item col l-2-3 m-2"><a href="#"><i class="fas fa-plane"></i><span>Vé bay</span></a></li>
+                        <li class="search-tab-item col l-2-3 m-2"><a href="#"><i class="fas fa-umbrella-beach"></i><span>Trips</span></a></li>
+                        <li class="search-tab-item col l-2 m-2"><a href="#"><i class="fas fa-ship"></i><span>Du thuyền</span></a></li>
+                        <li class="search-tab-item col l-2 m-2"><a href="#"><i class="fas fa-hiking"></i><span>Hoạt động</span></a></li>
+                    </ul>
+                    <div class="tabs-content">
+                        <form action="" class="search-content">
+                            <div class="search-content-item">
+                                <div>Địa điểm</div>
+                                <input type="text" class="search-content-input">
+                            </div>
+                            <div class="search-content-item">
+                                <div>Bắt đầu</div>
+                                <input type="text" class="search-content-input" placeholder="YYYY-MM-DD">
+                            </div>
+                            <div class="search-content-item">
+                                <div>Kết thúc</div>
+                                <input type="text" class="search-content-input" placeholder="YYYY-MM-DD">
+                            </div>
+                            <div class="search-content-item ">
+                                <div>Người lớn</div>
+                                <select name="adults" class="search-content-input">
+                                    <option>01</option>
+                                    <option>02</option>
+                                    <option>03</option>
+                                </select>
+                            </div>
+                            <div class="search-content-item">
+                                <div>Trẻ em</div>
+                                <select name="children" class="search-content-input">
+                                    <option>0</option>
+                                    <option>01</option>
+                                    <option>02</option>
+                                    <option>03</option>
+                                </select>
+                            </div>
+                            <button class="button search-content-item-button">Tìm kiếm <span></span><span></span><span></span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>   
+        </div>
+        <!-- CONTENT -->
+        <div id="content">
+            <div class="order-content row no-gutter">
+                <!-- GALLERIES SESSION -->
+            <div class="categories col l-4 m-4 c-0">
+                <form action="" method="post">
+                    <div class="form-search">
+                        <label for="place-search">Nhập nơi bạn muốn đến:</label>
+                        <input type="text" placeholder="Nhập địa điểm" id="place-search">
+                    </div>
+                    <div class="form-search">
+                        <label for="time-search">Thời gian đi:</label>
+                        <input type="date" placeholder="25/11/2022" id="time-search">
+                    </div>
+                    <div class="form-search">
+                        <label for="place-search">Sắp xếp theo:</label>
+                        <select name="price-search" class="price-search">
+                            <option>Giá</option>
+                            <option>Chất lượng</option>
+                            <option>Được ưa chuộng</option>
+                        </select>
+                    </div>
+                    <button class="btn-search"><i class="fa-solid fa-magnifying-glass"></i>Search</button>
+                </form>
+                <div class="category-image" style="background-image:url(./img/search.png)">
+                </div>
+            </div>
+    
+            <div class="galleries-session col l-8 m-8 c-12">
+                <!-- SP NỔI BẬT -->
+                <div class="galleries">
+                    <div class="content-galleries-session">
+                        <h2 class="section-heading">Địa điểm yêu thích</h2>
+                        <p class="section-sub-heading">Hãy trải nghiệm cùng chúng tôi</p>
+                    </div>
+                    <div class="bar-options row no-gutter">
+                        <div class="option-item option-1 col l-2-3">
+                            <button>Liên quan</button>
+                        </div>
+                        <div class="option-item col l-2">
+                            <button>Mới nhất</button>
+                        </div>
+                        <div class="option-item col l-2-3">
+                            <button>Ưa thích</button>
+                        </div>   
+                        <div class="sortby col l-4">
+                            <select name="list-item" class="sortbytime">
+                                <option>Giá</option>
+                                <option>Chất lượng</option>
+                            </select>
+                        </div>
+                        <!-- TRAVEL BOOKING LIST -->
+                        <div class="travel-book-lists row no-gutter">
+                            <div class="book-item col l-3 m-12">
+                                <div class="book-item-image">
+                                    <img src="./img/about-item-1.png" alt="">
+                                    <div class="overlay">
+                                        <div class="text"><a href="#">Xem chi tiết</a></div>
+                                    </div>
+                                </div>
+                                <div class="inf-book-item row no-gutter">
+                                    <div class="name-book col l-8">
+                                        <a href="#">Phú Yên</a>
+                                        <p class="sub-inf">Mũi Điện</p>
+                                    </div>
+                                    <div class="travel-price col l-4">
+                                        <h1 class="original-price">800.000</h1>
+                                        <h1 class="reduce-price">650.000</h1>
+                                    </div>
+                                    <button class="btn js-buy-ticket">Đặt ngay!</button>
+                                </div>
+                            </div>
+                            <div class="book-item col l-3 m-12">
+                                <div class="book-item-image">
+                                    <img src="./img/about-item-2.png" alt="">
+                                    <div class="overlay">
+                                        <div class="text"><a href="#">Xem chi tiết</a></div>
+                                    </div>
+                                </div>
+                                <div class="inf-book-item row no-gutter">
+                                    <div class="name-book col l-8">
+                                        <a href="">Nha Trang</a>
+                                        <p class="sub-inf">Hòn Chồng</p>
+                                    </div>
+                                    <div class="travel-price col l-4">
+                                        <h1 class="original-price">400.000</h1>
+                                        <h1 class="reduce-price">300.000</h1>
+                                    </div>
+                                    <button class="btn js-buy-ticket">Đặt ngay!</button>
+                                </div>
+                            </div>
+                            <div class="book-item col l-3 m-12">
+                                <div class="book-item-image">
+                                    <img src="./img/about-item-3.png" alt="">
+                                    <div class="overlay">
+                                        <div class="text"><a href="#">Xem chi tiết</a></div>
+                                    </div>
+                                </div>
+                                <div class="inf-book-item row no-gutter">
+                                    <div class="name-book col l-8">
+                                        <a href="">Đà Nẵng</a>
+                                        <p class="sub-inf">Bà Nà Hills</p>
+                                    </div>
+                                    <div class="travel-price col l-4">
+                                        <h1 class="original-price">700.000</h1>
+                                        <h1 class="reduce-price">640.000</h1>
+                                    </div>
+                                    <button class="btn js-buy-ticket">Đặt ngay!</button>
+                                </div>
+                            </div>
+                            <div class="book-item col l-3 m-12">
+                                <div class="book-item-image">
+                                    <img src="./img/about-item-4.png" alt="">
+                                    <div class="overlay">
+                                        <div class="text"><a href="#">Xem chi tiết</a></div>
+                                    </div>
+                                </div>
+                                <div class="inf-book-item row no-gutter">
+                                    <div class="name-book col l-8">
+                                        <a href="">Đà Lạt</a>
+                                        <p class="sub-inf">Thác Datanla</p>
+                                    </div>
+                                    <div class="travel-price col l-4">
+                                        <h1 class="original-price">500.000</h1>
+                                        <h1 class="reduce-price">420.000</h1>
+                                    </div>
+                                    <button class="btn js-buy-ticket">Đặt ngay!</button>
+                                </div>
+                            </div>
+                            <div class="book-item col l-3 m-12">
+                                <div class="book-item-image">
+                                    <img src="./img/about-item-5.png" alt="">
+                                    <div class="overlay">
+                                        <div class="text"><a href="#">Xem chi tiết</a></div>
+                                    </div>
+                                </div>
+                                <div class="inf-book-item row no-gutter">
+                                    <div class="name-book col l-8">
+                                        <a href="">Sapa</a>
+                                        <p class="sub-inf">Đèo Ô Quy Hồ</p>
+                                    </div>
+                                    <div class="travel-price col l-4">
+                                        <h1 class="original-price">800.000</h1>
+                                        <h1 class="reduce-price">650.000</h1>
+                                    </div>
+                                    <button class="btn js-buy-ticket">Đặt ngay!</button>
+                                </div>
+                            </div>
+                            <div class="book-item col l-3 m-12">
+                                <div class="book-item-image">
+                                    <img src="./img/about-item-6.png" alt="">
+                                    <div class="overlay">
+                                        <div class="text"><a href="#">Xem chi tiết</a></div>
+                                    </div>
+                                </div>
+                                <div class="inf-book-item row no-gutter">
+                                    <div class="name-book col l-8">
+                                        <a href="">Hà Giang</a>
+                                        <p class="sub-inf">Đèo Ô Quy Hồ</p>
+                                    </div>
+                                    <div class="travel-price col l-4">
+                                        <h1 class="original-price">700.000</h1>
+                                        <h1 class="reduce-price">650.000</h1>
+                                    </div>
+                                    <button class="btn js-buy-ticket">Đặt ngay!</button>
+                                </div>
+                            </div>
+                            <div class="book-item col l-3 m-12">
+                                <div class="book-item-image">
+                                    <img src="./img/about-item-7.png" alt="">
+                                    <div class="overlay">
+                                        <div class="text"><a href="#">Xem chi tiết</a></div>
+                                    </div>
+                                </div>
+                                <div class="inf-book-item row no-gutter">
+                                    <div class="name-book col l-8">
+                                        <a href="">Phú Yên</a>
+                                        <p class="sub-inf">Gành Đá Đĩa</p>
+                                    </div>
+                                    <div class="travel-price col l-4">
+                                        <h1 class="original-price">600.000</h1>
+                                        <h1 class="reduce-price">450.000</h1>
+                                    </div>
+                                    <button class="btn js-buy-ticket">Đặt ngay!</button>
+                                </div>
+                            </div>
+                            <div class="book-item col l-3 m-12">
+                                <div class="book-item-image">
+                                    <img src="./img/about-item-8.png" alt="">
+                                    <div class="overlay">
+                                        <div class="text"><a href="#">Xem chi tiết</a></div>
+                                    </div>
+                                </div>
+                                <div class="inf-book-item row no-gutter">
+                                    <div class="name-book col l-8">
+                                        <a href="">Phú Quốc</a>
+                                        <p class="sub-inf">Suối Tranh</p>
+                                    </div>
+                                    <div class="travel-price col l-4">
+                                        <h1 class="original-price">600.000</h1>
+                                        <h1 class="reduce-price">450.000</h1>
+                                    </div>
+                                    <button class="btn js-buy-ticket">Đặt ngay!</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="option-section">
+                    <button class="btn-option" id="hinh1-option">
+                        <span>Xem tất cả</span>
+                    </button>
+                </div>
+                <!-- BST SP -->
+                <div class="galleries">
+                    <div class="content-galleries-session">
+                        <h2 class="section-heading">Tour Du Lịch</h2>
+                        <p class="section-sub-heading">Đặt liền và ngay!!!</p>
+                    </div>
+                    <div class="bar-options row no-gutter">
+                        <div class="option-item option-1 col l-2-3">
+                            <button>Đề xuất</button>
+                        </div>
+                        <div class="option-item col l-2">
+                            <button>Gia đình - bạn bè</button>
+                        </div>
+                        <div class="option-item col l-2-3">
+                            <button>Giảm giá</button>
+                        </div>
+                        <div class="option-item col l-2-3">
+                            <button>Khác</button>
+                        </div>
+                        
+                        <div class="sortby col l-4">
+                            <select name="list-item" class="sortbytime">
+                                <option>Thêm gần đây</option>
+                                <option>Đã thêm</option>
+                            </select>
+                        </div>
+                        <!-- TRAVEL BOOKING LIST -->
+                        <div class="travel-book-lists row no-gutter">
+                            <div class="book-item col l-3 m-12">
+                                <div class="book-item-image">
+                                    <img src="./img/hinh1-book.jpg" alt="">
+                                    <div class="overlay">
+                                        <div class="text"><a href="#">Xem chi tiết</a></div>
+                                    </div>
+                                </div>
+                                <div class="inf-book-item row no-gutter">
+                                    <div class="name-book col l-8">
+                                        <a href="#">Khu mát lạnh</a>
+                                        <p class="sub-inf">Sapa</p>
+                                    </div>
+                                    <div class="travel-price col l-4">
+                                        <h1 class="original-price">800.000</h1>
+                                        <h1 class="reduce-price">650.000</h1>
+                                    </div>
+                                    <button class="btn js-buy-ticket">Đặt ngay!</button>
+                                </div>
+                            </div>
+                            <div class="book-item col l-3 m-12">
+                                <div class="book-item-image">
+                                    <img src="./img/hinh2-book.jpg" alt="">
+                                    <div class="overlay">
+                                        <div class="text"><a href="#">Xem chi tiết</a></div>
+                                    </div>
+                                </div>
+                                <div class="inf-book-item row no-gutter">
+                                    <div class="name-book col l-8">
+                                        <a href="">Khu bãi biển</a>
+                                        <p class="sub-inf">Vũng Tàu</p>
+                                    </div>
+                                    <div class="travel-price col l-4">
+                                        <h1 class="original-price">400.000</h1>
+                                        <h1 class="reduce-price">300.000</h1>
+                                    </div>
+                                    <button class="btn js-buy-ticket">Đặt ngay!</button>
+                                </div>
+                            </div>
+                            <div class="book-item col l-3 m-12">
+                                <div class="book-item-image">
+                                    <img src="./img/hinh3-book.jpg" alt="">
+                                    <div class="overlay">
+                                        <div class="text"><a href="#">Xem chi tiết</a></div>
+                                    </div>
+                                </div>
+                                <div class="inf-book-item row no-gutter">
+                                    <div class="name-book col l-8">
+                                        <a href="">Khu đồng quê</a>
+                                        <p class="sub-inf">Đà Nẵng</p>
+                                    </div>
+                                    <div class="travel-price col l-4">
+                                        <h1 class="original-price">700.000</h1>
+                                        <h1 class="reduce-price">640.000</h1>
+                                    </div>
+                                    <button class="btn js-buy-ticket">Đặt ngay!</button>
+                                </div>
+                            </div>
+                            <div class="book-item col l-3 m-12">
+                                <div class="book-item-image">
+                                    <img src="./img/hinh4-book.jpg" alt="">
+                                    <div class="overlay">
+                                        <div class="text"><a href="#">Xem chi tiết</a></div>
+                                    </div>
+                                </div>
+                                <div class="inf-book-item row no-gutter">
+                                    <div class="name-book col l-8">
+                                        <a href="">Đi một mình</a>
+                                        <p class="sub-inf">Đà Lạt</p>
+                                    </div>
+                                    <div class="travel-price col l-4">
+                                        <h1 class="original-price">500.000</h1>
+                                        <h1 class="reduce-price">420.000</h1>
+                                    </div>
+                                    <button class="btn js-buy-ticket">Đặt ngay!</button>
+                                </div>
+                            </div>
+                            <div class="book-item col l-3 m-12">
+                                <div class="book-item-image">
+                                    <img src="./img/hinh5-book.jpg" alt="">
+                                    <div class="overlay">
+                                        <div class="text"><a href="#">Xem chi tiết</a></div>
+                                    </div>
+                                </div>
+                                <div class="inf-book-item row no-gutter">
+                                    <div class="name-book col l-8">
+                                        <a href="">Khu bãi biển</a>
+                                        <p class="sub-inf">Biển Đà Nẵng</p>
+                                    </div>
+                                    <div class="travel-price col l-4">
+                                        <h1 class="original-price">800.000</h1>
+                                        <h1 class="reduce-price">650.000</h1>
+                                    </div>
+                                    <button class="btn js-buy-ticket">Đặt ngay!</button>
+                                </div>
+                            </div>
+                            <div class="book-item col l-3 m-12">
+                                <div class="book-item-image">
+                                    <img src="./img/hinh6-book.jpg" alt="">
+                                    <div class="overlay">
+                                        <div class="text"><a href="#">Xem chi tiết</a></div>
+                                    </div>
+                                </div>
+                                <div class="inf-book-item row no-gutter">
+                                    <div class="name-book col l-8">
+                                        <a href="">Khu mát mẻ</a>
+                                        <p class="sub-inf">Hà Giang</p>
+                                    </div>
+                                    <div class="travel-price col l-4">
+                                        <h1 class="original-price">700.000</h1>
+                                        <h1 class="reduce-price">650.000</h1>
+                                    </div>
+                                    <button class="btn js-buy-ticket">Đặt ngay!</button>
+                                </div>
+                            </div>
+                            <div class="book-item col l-3 m-12">
+                                <div class="book-item-image">
+                                    <img src="./img/hinh7-book.jpg" alt="">
+                                    <div class="overlay">
+                                        <div class="text"><a href="#">Xem chi tiết</a></div>
+                                    </div>
+                                </div>
+                                <div class="inf-book-item row no-gutter">
+                                    <div class="name-book col l-8">
+                                        <a href="">Khu mát mẻ</a>
+                                        <p class="sub-inf">Tây Ninh</p>
+                                    </div>
+                                    <div class="travel-price col l-4">
+                                        <h1 class="original-price">600.000</h1>
+                                        <h1 class="reduce-price">450.000</h1>
+                                    </div>
+                                    <button class="btn js-buy-ticket">Đặt ngay!</button>
+                                </div>
+                            </div>
+                            <div class="book-item col l-3 m-12">
+                                <div class="book-item-image">
+                                    <img src="./img/hinh8-book.jpg" alt="">
+                                    <div class="overlay">
+                                        <div class="text"><a href="#">Xem chi tiết</a></div>
+                                    </div>
+                                </div>
+                                <div class="inf-book-item row no-gutter">
+                                    <div class="name-book col l-8">
+                                        <a href="">Khu mát lạnh</a>
+                                        <p class="sub-inf">Đà Lạt</p>
+                                    </div>
+                                    <div class="travel-price col l-4">
+                                        <h1 class="original-price">600.000</h1>
+                                        <h1 class="reduce-price">450.000</h1>
+                                    </div>
+                                    <button class="btn js-buy-ticket">Đặt ngay!</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="option-section">
+                    <button class="btn-option" id="hinh1-option">
+                        <span>Xem tất cả</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+            
+        </div>
+        <!-- FOOTER -->
+
+         <footer class="footer">
+            <div class="footer-container row no-gutter">
+                <div class="footer-logo col l-2 m-2 c-3">
+                    <img src="./img/logo.jpg" alt="logo-footer">
+                </div>
+                <div class="footer-list-1 col l-2 m-2 c-3">
+                   <ul>
+                        <li><a href ="#">Tự túc</li></a>
+                        <li><a href ="#">Xe khách - ô tô </li></a>
+                   </ul> 
+                </div>
+                <div class="footer-list-2 col l-2 m-2 c-3">
+                    <ul>
+                        <li><a href ="#">Máy bay</li></a>
+                        <li><a href ="#">Khác</li></a>
+                    </ul>
+                </div>
+                <div class="footer-list-3 col l-2 m-2 c-3">
+                    <ul>
+                        <li><a href ="#">Hỗ trợ</a></li>
+                    </ul>
+                </div>
+            <div class="footer-email col m-4 c-0">
+                    <h1>THAM GIA TRẢI NGHIỆM DU LỊCH!</h1>
+                    <input type="email" placeholder="Nhập email của bạn" class="enteryouremail">
+            </div>
+        </footer> 
+         <!-- BACKTOP -->
+        <div id="backtop">
+            <i class="fa-solid fa-circle-arrow-up"></i>
+        </div>
+    </div>
+    <!-- SCRIPT SLIDES -->
+    <script>
+        var slideIndex = 0; 
+        showSlides();
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("home-slide-background");
+            for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}
+            slides[slideIndex-1].style.display = "block";
+            setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+        </script>
+    
+    <!-- SCRIPT BACK TOP -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $(window).scroll(function(){
+                if($(this).scrollTop()){
+                $('#backtop').fadeIn();
+            }else {
+                $('#backtop').fadeOut();
+        }
+        });
+            $("#backtop").click(function(){
+                $('html, body').animate({
+                    scrollTop:0
+                },500);
+            });
+        });
+    </script>
+</body>
+</html>

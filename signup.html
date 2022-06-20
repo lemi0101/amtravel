@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+    <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@200&family=Open+Sans:wght@400;600&family=Work+Sans:wght@500&display=swap" rel="stylesheet">
+<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+</head>
+<body>
+    <div class="container-sign-up">
+        <header id="header">
+            <!-- TOP BAR -->
+            <div class="top_bar">
+                <div class="row no-gutter">
+                    <div class="bar-inf col l-9 m-7 c-0">
+                        <div class="row">
+                            <div class="phone col l-2 m-3">+84 8640 0003</div>
+                            <div class="social-media col l-10 m-9">
+                                <ul class="social-list row">
+                                    <li class="col">
+                                        <a class="social-list-item" href="#">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                    </li>
+                                    <li class="col">
+                                        <a class="social-list-item" href="#">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li class="col">
+                                        <a class="social-list-item" href="#">
+                                            <i class="fab fa-youtube"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bar-user col l-3 m-4 c-12">
+                        <div class="row">
+                            <div class="bar_user_login col l-5 m-6">
+                                <button class="js-sign-in"><i class="fa-solid fa-arrow-right-to-bracket"></i>Đăng nhập</button>
+                            </div>
+                            <div class="bar_user-regis col l-7 m-6">
+                                <a href="signup.html">
+                                    <button class="js-sign-up"><i class="far fa-registered"></i>Đăng ký</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- MAIN MENU -->
+            <div class="main-nav row no-gutter">
+                <div class="main-nav-logo col l-2 m-2">
+                    <a>
+                        <img src="img/logo.jpg" alt="logo"></a>
+                    </a>
+                </div>
+                <nav class="main-nav-menu col l-10 m-10">
+                    <ul class="main-nav-list row">
+                        <li class="col l-o-3 l-2 m-2"><a class="main-nav-item" href="index.html">TRANG CHỦ</a></li>
+                        <li class="col l-2 m-2"><a class="main-nav-item" href="#">SẢN PHẨM</a></li>
+                        <li class="col l-2 m-2"><a class="main-nav-item" href="#">TIN TỨC</a></li>
+                        <li class="col l-2 m-2"><a class="main-nav-item" href="contact.html">LIÊN HỆ</a></li>
+                        <li class="cart-icon"><a class="main-nav-item" href="#"><i class="fas fa-shopping-cart"></i><span>2</span></a></li>
+                    </ul>
+                </nav>
+                <label for="nav-mobile-input" class="toggle">
+                        <i class="fa-solid fa-bars"></i>
+                </label>
+                <input type="checkbox" hidden name="" class="nav-input" id="nav-mobile-input">
+                <label for="nav-mobile-input" class="nav_overlay">
+                </label>
+                <!-- MAIN MENU - MOBILE -->
+                <nav class="main-nav-mobile-menu">
+                    <label for="nav-mobile-input" class="nav_mobile_close">
+                        <i class="fa-solid fa-xmark"></i>
+                    </label>
+                    <div class="cart-icon-mobile"><a class="cart-mobile" href="#"><i class="fas fa-shopping-cart"></i><span>2</span></a></div>
+                    <ul class="main-nav-mobile-list">
+                        <li><a class="main-nav-mobile-item first-nav-mobile" href="index.html"><i class="fa-solid fa-house"></i>Trang chủ</a></li>
+                        <li><a class="main-nav-mobile-item" href="#"><i class="fa-solid fa-circle-info"></i>Sản phẩm</a></li>
+                        <li><a class="main-nav-mobile-item" href="#"><i class="fa-solid fa-newspaper"></i>Tin tức</a></li>
+                        <li><a class="main-nav-mobile-item" href="contact.html"><i class="fa-solid fa-phone"></i>Liên hệ</a></li>
+                    </ul>
+                    <h1>Tiện ích</h1>
+                    <ul class="sub-nav-mobile-list row">
+                        <li  class="sub-nav-mobile col c-6"><a href="" class="sub-nav-mobile-item"><i class="fas fa-hotel"></i><span>Khách sạn</span></a></li>
+                        <li class="sub-nav-mobile col c-6"><a href="" class="sub-nav-mobile-item"><i class="fas fa-car"></i><span>Xe thuê</span></a></li>
+                        <li class="sub-nav-mobile col c-6"><a href="" class="sub-nav-mobile-item"><i class="fas fa-plane"></i><span>Vé bay</span></a></li>
+                        <li class="sub-nav-mobile col c-6"><a href="" class="sub-nav-mobile-item"><i class="fas fa-umbrella-beach"></i><span>Trips</span></a></li>
+                        <li class="sub-nav-mobile col c-6"><a href="" class="sub-nav-mobile-item"><i class="fas fa-ship"></i><span>Du thuyền</span></a></li>
+                        <li class="sub-nav-mobile col c-6"><a href="" class="sub-nav-mobile-item"><i class="fas fa-hiking"></i><span>Hoạt động</span></a></li>
+                    </ul>
+                </nav>    
+            </div>
+            
+        </header>
+    </div>
+
+        <!--NAVIGATION BAR-->
+        <div class="navigation-bar">
+                <ul class="navigation-bar-list">
+                    <li class="item-home"><a class="bread-home" href="index.html" title="Trang chủ">Trang chủ</a></li>
+                    <li class="item-next"><i class="fa-solid fa-angle-right"></i></li>
+                    <li class="item-register"><a class="bread-register" href="#" title="Register">Đăng ký</a></li>
+                    <li class="item-next"><i class="fa-solid fa-angle-right"></i></li>
+                    <li class="item-back"><a class="bread-back" href="index.html" title="Back">Quay lại</a></li>
+                </ul>
+        </div>
+
+        <!--SIGN UP FORM-->
+        <div class="sign-up-form">
+            <div class="content-w3ls row">
+                <div class="heading-signup l-12 m-12 c-12">
+                    <h1>Form đăng ký</h1>
+                </div>
+                <div class="content-agile1 l-6 m-0 c-0" style="background-image:url(./img/hinh4-book.jpg)">
+                </div>
+                <div class="content-agile2 l-6 m-12 c-12">
+                    <form action="#" method="post">
+                        <div class="form-control w3layouts">
+                            <input type="text" id="firstname" name="firstname" placeholder="Họ" title="Please enter your First Name" required>
+                        </div>
+                        <div class="form-control w3layouts">
+                            <input type="text" id="lastname" name="lastname" placeholder="Tên" title="Please enter your Last Name" required>
+                        </div>
+                        <div class="form-control w3layouts">
+                            <input type="email" id="email" name="email" placeholder="mail@gmail.com" title="Pleaser enter a valid email" required>
+                        </div>
+                        <div class="form-control agileinfo">
+                            <input type="password" class="lock" name="password" placeholder="Mật khẩu" id="password1" required>
+                        </div>
+                        <div class="form-control agileinfo">
+                            <input type="password" class="lock" name="confirm-password" placeholder="Xác nhận mật khẩu" id="password2" required>
+                        </div>
+                        <div class="form-checkbox">
+                            <input type="checkbox" value="lsRememberMe" id="rememberMe">
+                            <label for="rememberMe">Nhớ ở lần đăng nhập sau</label>
+                        </div> 
+                        <input type="submit" class="register" value="Đăng ký">
+                    </form>
+                    
+                    <script type="text/javascript">  
+                            window.onload = function () {
+                                document.getElementById("password1").onchange = validatePassword;
+                                document.getElementById("password2").onchange = validatePassword;
+                            }
+                            function validatePassword(){
+                                var pass2=document.getElementById("password2").value;
+                                var pass1=document.getElementById("password1").value;
+                                if(pass1!=pass2)
+                                    document.getElementById("password2").setCustomValidity("Passwords Don't Match");
+                                else
+                                    document.getElementById("password2").setCustomValidity('');	 
+                                    //empty string means no validation error
+                            }
+                    </script>
+                    <p class="wthree w3l">Hoặc đăng ký nhanh với</p>
+                    <ul class="social-agileinfo wthree2">
+                        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-google"></i></a></li>
+                    </ul>
+                </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <!-- FOOTER -->
+
+    <footer class="footer">
+        <div class="footer-container row no-gutter">
+            <div class="footer-logo col l-2 m-2 c-3">
+                <img src="../img/logo.jpg" alt="logo-footer">
+            </div>
+            <div class="footer-list-1 col l-2 m-2 c-3">
+               <ul>
+                    <li><a href ="#">Tự túc</li></a>
+                    <li><a href ="#">Xe khách - ô tô</li></a>
+               </ul> 
+            </div>
+            <div class="footer-list-2 col l-2 m-2 c-3">
+                <ul>
+                    <li><a href ="#">Máy bay</li></a>
+                    <li><a href ="#">Khác</li></a>
+                </ul>
+            </div>
+            <div class="footer-list-3 col l-2 m-2 c-3">
+                <ul>
+                    <li><a href ="#">Hỗ trợ</a></li>
+                </ul>
+            </div>
+        <div class="footer-email col m-4 c-0">
+                <h1>THAM GIA TRẢI NGHIỆM DU LỊCH!</h1>
+                <input type="email
+                " placeholder="Nhập email của bạn" class="enteryouremail">
+        </div>
+    </footer> 
+    <div class="modal js-modal">
+        <div class="modal-container js-modal-container">
+            <div class="modal-close js-modal-close">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+            <header class="modal-header">
+                <i class="fa-solid fa-user"></i>
+                Sign In
+            </header>
+            <form method="post" class="sign-in-form" novalidate="novalidate">
+                <div class="form-group">
+                    <label for="name">
+                        <i class="fa-solid fa-user"></i>
+                    </label>
+                    <input type="text" id="name" name="name" placeholder="Your email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="pass">
+                        <i class="fa-solid fa-lock"></i>
+                    </label>
+                    <input type="password" id="pass" name="pass" placeholder="Password" required>
+                </div>
+
+                <div class="form-group form-checkbox">
+                    <input type="checkbox" id="remember" name="remember" class="remember">
+                    <label for="remember" class="label_rm">Remember me</label>
+                </div>
+
+                <div class="form-group form-button">
+                    <input type="submit" name="login" id="login" class="form-submit" value="Log in">
+                </div>
+            </form>
+            <div class="log-in-social">
+                <div class="social-label">
+                    Or login with
+                    <ul class="social-icon">
+                        <li class="icon-fb">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        </li>
+                        <li class="icon-tw">
+                            <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                        </li>
+                        <li class="icon-gg">
+                            <a href="#"><i class="fa-brands fa-google-plus-square"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- MODAL SIGN IN -->
+    <script>
+        const signinBtn=document.querySelector('.js-sign-in');
+        const modal=document.querySelector('.modal');
+        const modalClose=document.querySelector('.js-modal-close')
+        const modalContainer=document.querySelector('.js-modal-container')
+
+        function showSignIn(){
+            modal.classList.add('open')
+        }
+         // hàm ẩn modal
+         function hideSignIn(){
+                modal.classList.remove('open')
+        }
+        function signIn(){
+            modal.classList.add('open')
+        }
+        signinBtn.addEventListener('click',signIn);
+        modalClose.addEventListener('click',hideSignIn)
+        modal.addEventListener('click',hideSignIn)
+        // Ngừng nổi bọt từ vị trí Container
+        modalContainer.addEventListener('click',function(event){
+            event.stopPropagation()
+        })
+    </script> 
+</body>
+</html>
