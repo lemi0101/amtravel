@@ -1250,7 +1250,7 @@ input#firstname, input#lastname, input#email, input#password1, input#password2 {
   }
 @media (max-width:739px){
     .bar-user{
-        margin-left:65%;
+        margin-left:15%;
     }
 }
 @media (max-width:1024px){
